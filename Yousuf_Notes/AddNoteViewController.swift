@@ -33,7 +33,6 @@ class AddNoteViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
     @IBAction func save(_ sender: Any) {
         let title = titleField.text
         let description = textView.text
@@ -44,8 +43,15 @@ class AddNoteViewController: UIViewController {
             present(alert, animated: true)
             return
         }
-        let noteModel = NoteModel(title: title, description: description)
-        NoteFunctions.createNote(nodeModel: noteModel)
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let note = NoteModel(context: context)
+        note.id = UUID()
+        note.title = title
+        note.text = description
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+//        let noteModel = NoteModel(title: title, description: description)
+//        NoteFunctions.createNote(nodeModel: noteModel)
         if let doneSaving = doneSaving{
             doneSaving()
         }

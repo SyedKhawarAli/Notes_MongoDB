@@ -19,7 +19,7 @@
 		CE2F6A0022E43E4200969E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2F69FF22E43E4200969E54 /* Assets.xcassets */; };
 		CE2F6A0322E43E4200969E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2F6A0122E43E4200969E54 /* LaunchScreen.storyboard */; };
 		CED86D5922F06ABB008BA9C4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED86D5822F06ABB008BA9C4 /* Data.swift */; };
-		CED86D5B22F06B00008BA9C4 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED86D5A22F06B00008BA9C4 /* NoteModel.swift */; };
+		CED86D5B22F06B00008BA9C4 /* NoteModel_old.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED86D5A22F06B00008BA9C4 /* NoteModel_old.swift */; };
 		CED86D5E22F06B53008BA9C4 /* NoteFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED86D5D22F06B53008BA9C4 /* NoteFunctions.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		CE2F6A0222E43E4200969E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2F6A0422E43E4200969E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED86D5822F06ABB008BA9C4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		CED86D5A22F06B00008BA9C4 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		CED86D5A22F06B00008BA9C4 /* NoteModel_old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel_old.swift; sourceTree = "<group>"; };
 		CED86D5D22F06B53008BA9C4 /* NoteFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		CED86D5C22F06B36008BA9C4 /* Note */ = {
 			isa = PBXGroup;
 			children = (
-				CED86D5A22F06B00008BA9C4 /* NoteModel.swift */,
+				CED86D5A22F06B00008BA9C4 /* NoteModel_old.swift */,
 				CED86D5D22F06B53008BA9C4 /* NoteFunctions.swift */,
 			);
 			path = Note;
@@ -189,7 +189,7 @@
 			files = (
 				CED86D5922F06ABB008BA9C4 /* Data.swift in Sources */,
 				CED86D5E22F06B53008BA9C4 /* NoteFunctions.swift in Sources */,
-				CED86D5B22F06B00008BA9C4 /* NoteModel.swift in Sources */,
+				CED86D5B22F06B00008BA9C4 /* NoteModel_old.swift in Sources */,
 				CE2F69F822E43E4000969E54 /* ViewController.swift in Sources */,
 				CE2F69F622E43E4000969E54 /* AppDelegate.swift in Sources */,
 				CE2BA65D22E447030069FF74 /* LaunchScreenViewController.swift in Sources */,
